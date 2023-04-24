@@ -66,7 +66,7 @@ function Campaign() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {parsedAllEmail.map((row, key) => (
+            {parsedAllEmail && parsedAllEmail.map((row, key) => (
               <TableRow
                 key={key}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
